@@ -37,7 +37,7 @@ Field QDAT = [Q3..0];
 /* logic */
 
 Table ADDR => QDAT {
-
+/* here goes an output of a bin2pld script */
 'h'0 => 'h'0c;
 'h'1 => 'h'04;
 'h'2 => 'h'0c;
