@@ -3,6 +3,7 @@
 
 if [ -z "$1" ]; then 
 	echo "usage: $0 <rom.bin>"
+	exit
 fi
 
 hexdump -v -e '1/1 "h%_ax => H%.2x;\r\n"' "$1" |sed "s/h/'h'/; s/H/'h'/"
