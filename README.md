@@ -8,4 +8,5 @@ A neat bash script (bin2pld) is written to convert a binary dump into a table fu
 
 Microchip provides WinCupl free of charge to deal with ATFxxx PLDs, can be officially [downloaded here](https://www.microchip.com/en-us/products/fpgas-and-plds/spld-cplds/pld-design-resources)
 
-**IMPORTANT!** In order to compile the table function successfully you should turn on the Quine-McCluskey logic optimisation by pressing Ctrl+W (compiler options), "Minimisation" tab.
+**IMPORTANT!** 
+In order to compile the table function successfully you should turn on the Quine-McCluskey logic optimisation by pressing Ctrl+W (compiler options), "Minimization" tab. You may also run out of nodes despite minimization, try turning on "Best for polarity" checkox in "Optimization" tab.
